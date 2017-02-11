@@ -26,10 +26,10 @@ I added relationship “add” and “remove” between the player and manager.
 There is a boolean attribute in “Tournament” class. If the current tournament is ongoing, no new tournament can be created.
 
 ###9.To start a tournament: The tournament manager will enter the house cut.
-###The tournament manager will enter the entry price.
-###The tournament manager will enter all player usernames. For simplicity, let’s assume that there will be either 8 or 16 players in a tournament.
-###When the tournament manager has entered the above information, the system will display, in addition to the player names, the potential prizes and profit, as calculated in the TourneyCalc app that you developed for Assignment 
-###The tournament manager will then be able to double check the information and start the tournament.
+###(1) The tournament manager will enter the entry price.
+###(2) The tournament manager will enter all player usernames. For simplicity, let’s assume that there will be either 8 or 16 players in a tournament.
+###(3) When the tournament manager has entered the above information, the system will display, in addition to the player names, the potential prizes and profit, as calculated in the TourneyCalc app that you developed for Assignment 
+###(4) The tournament manager will then be able to double check the information and start the tournament.
 I added relationship “Creat” between manager and tournament.The "tournament" class has attribute as "Time_stamp",generate through the system ultility function. It also has attributes -- "House_cut", "Entry_Price" input by manager when creating the "tournament". The inital ongoing status is set to "True" .While ended by the manager, the status will be set to "False".
 
 ###10.When there is no ongoing tournament, the player mode will show totals for every player in the system as a list sorted by total.
